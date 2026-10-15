@@ -1,0 +1,15 @@
+{
+  "name": "linkscript",
+  "version": "1.0.0",
+  "description": "Standalone LinkScript (.ls) programming language transpiler",
+  "main": "src/index.js",
+  "bin": {
+    "ls": "./bin/ls.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/ls.js run examples/app.ls"
+  },
+  "keywords": ["linkscript", "transpiler", "compiler"],
+  "license": "MIT"
+}
